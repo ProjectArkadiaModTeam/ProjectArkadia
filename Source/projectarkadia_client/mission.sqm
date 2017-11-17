@@ -1,0 +1,8408 @@
+version=53;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.08726646;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=33;
+	class ItemIDProvider
+	{
+		nextID=989;
+	};
+	class Camera
+	{
+		pos[]={1395.2882,32.682812,937.95209};
+		dir[]={0.08150252,-0.86370361,0.4973681};
+		up[]={0.13967037,0.50399911,0.85233557};
+		aside[]={0.98683923,-1.5180558e-007,-0.16171083};
+	};
+};
+binarizationWanted=0;
+addons[]=
+{
+	"A3_Ui_F",
+	"A3_Characters_F"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=2;
+		class Item0
+		{
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item1
+		{
+			className="A3_Characters_F";
+			name="Arma 3 Alpha - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+	};
+};
+randomSeed=12225032;
+class ScenarioData
+{
+	author="Stephano / ProjectArkadia ";
+	wreckRemovalMaxTime=3600;
+};
+class CustomAttributes
+{
+	class Category0
+	{
+		name="Multiplayer";
+		class Attribute0
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
+					class value
+					{
+						items=1;
+						class Item0
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="None";
+							};
+						};
+					};
+				};
+			};
+		};
+		nAttributes=1;
+	};
+};
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=6;
+		day=6;
+		hour=12;
+		minute=0;
+		startFogBase=250;
+		forecastFogBase=250;
+		startFogDecay=0.014;
+		forecastFogDecay=0.014;
+	};
+	class Entities
+	{
+		items=183;
+		class Item0
+		{
+			dataType="Marker";
+			position[]={1892.9557,6.7472215,12028.424};
+			name="spawn_1";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorRed";
+			fillName="SolidBorder";
+			a=350;
+			b=350;
+			drawBorder=1;
+			id=0;
+		};
+		class Item1
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1499.9036,3.3683054,1051.3743};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_81";
+						isPlayer=1;
+						isPlayable=1;
+					};
+					id=7;
+					type="B_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=6;
+		};
+		class Item2
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1498.6155,3.3825996,1051.3528};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_82";
+						isPlayable=1;
+					};
+					id=9;
+					type="B_medic_F";
+					atlOffset=3.0994415e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=8;
+			atlOffset=3.0994415e-006;
+		};
+		class Item3
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1497.3391,3.3839436,1051.3958};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_83";
+						isPlayable=1;
+					};
+					id=11;
+					type="B_medic_F";
+					atlOffset=3.0994415e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=10;
+			atlOffset=3.0994415e-006;
+		};
+		class Item4
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1495.9495,3.3845024,1051.4446};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_84";
+						isPlayable=1;
+					};
+					id=13;
+					type="B_medic_F";
+					atlOffset=3.3378601e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=12;
+			atlOffset=3.3378601e-006;
+		};
+		class Item5
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1494.5315,3.3809731,1051.468};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_85";
+						isPlayable=1;
+					};
+					id=15;
+					type="B_medic_F";
+					atlOffset=3.0994415e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=14;
+			atlOffset=3.0994415e-006;
+		};
+		class Item6
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1493.386,3.3938313,1051.6282};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_86";
+						isPlayable=1;
+					};
+					id=17;
+					type="B_medic_F";
+					atlOffset=0.028429031;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=16;
+			atlOffset=0.028429031;
+		};
+		class Item7
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1491.7014,3.4738941,1051.5559};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_87";
+						isPlayable=1;
+					};
+					id=19;
+					type="B_medic_F";
+					atlOffset=0.12546754;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=18;
+			atlOffset=0.12546754;
+		};
+		class Item8
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1490.2102,3.5007496,1051.5657};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_88";
+						isPlayable=1;
+					};
+					id=21;
+					type="B_medic_F";
+					atlOffset=0.18070102;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=20;
+			atlOffset=0.18070102;
+		};
+		class Item9
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1488.7151,3.5152302,1051.7219};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_89";
+						isPlayable=1;
+					};
+					id=23;
+					type="B_medic_F";
+					atlOffset=0.23277378;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=22;
+			atlOffset=0.23277378;
+		};
+		class Item10
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1487.3918,3.5249195,1051.7786};
+					};
+					side="West";
+					flags=3;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_90";
+						isPlayable=1;
+					};
+					id=25;
+					type="B_medic_F";
+					atlOffset=0.28323936;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=24;
+			atlOffset=0.28323936;
+		};
+		class Item11
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1500.0872,3.2944932,1052.6575};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_91";
+						isPlayable=1;
+					};
+					id=27;
+					type="B_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=26;
+		};
+		class Item12
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1498.7991,3.3094304,1052.636};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_92";
+						isPlayable=1;
+					};
+					id=29;
+					type="B_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=28;
+		};
+		class Item13
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1497.5227,3.3206449,1052.679};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_93";
+						isPlayable=1;
+					};
+					id=31;
+					type="B_medic_F";
+					atlOffset=3.0994415e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=30;
+			atlOffset=3.0994415e-006;
+		};
+		class Item14
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1496.1331,3.3229077,1052.7278};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_94";
+						isPlayable=1;
+					};
+					id=33;
+					type="B_medic_F";
+					atlOffset=3.3378601e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=32;
+			atlOffset=3.3378601e-006;
+		};
+		class Item15
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1494.7151,3.3217816,1052.7512};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_95";
+						isPlayable=1;
+					};
+					id=35;
+					type="B_medic_F";
+					atlOffset=3.3378601e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=34;
+			atlOffset=3.3378601e-006;
+		};
+		class Item16
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1493.5696,3.3140967,1052.9114};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_96";
+						isPlayable=1;
+					};
+					id=37;
+					type="B_medic_F";
+					atlOffset=3.3378601e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=36;
+			atlOffset=3.3378601e-006;
+		};
+		class Item17
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1491.885,3.3561726,1052.8391};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_97";
+						isPlayable=1;
+					};
+					id=39;
+					type="B_medic_F";
+					atlOffset=0.056138277;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=38;
+			atlOffset=0.056138277;
+		};
+		class Item18
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1490.3938,3.4148884,1052.8489};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_98";
+						isPlayable=1;
+					};
+					id=41;
+					type="B_medic_F";
+					atlOffset=0.13910365;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=40;
+			atlOffset=0.13910365;
+		};
+		class Item19
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1488.8987,3.4391651,1053.0051};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_99";
+						isPlayable=1;
+					};
+					id=43;
+					type="B_medic_F";
+					atlOffset=0.19699574;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=42;
+			atlOffset=0.19699574;
+		};
+		class Item20
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1487.5754,3.4460926,1053.0618};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_100";
+						isPlayable=1;
+					};
+					id=45;
+					type="B_medic_F";
+					atlOffset=0.24351287;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=44;
+			atlOffset=0.24351287;
+		};
+		class Item21
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1500.135,3.2282882,1053.8098};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_101";
+						isPlayable=1;
+					};
+					id=47;
+					type="B_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=46;
+		};
+		class Item22
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1498.8469,3.2443912,1053.7883};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_102";
+						isPlayable=1;
+					};
+					id=49;
+					type="B_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=48;
+		};
+		class Item23
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1497.5706,3.2555959,1053.8313};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_103";
+						isPlayable=1;
+					};
+					id=51;
+					type="B_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=50;
+		};
+		class Item24
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1496.1809,3.2675078,1053.8801};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_104";
+						isPlayable=1;
+					};
+					id=53;
+					type="B_medic_F";
+					atlOffset=2.8610229e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=52;
+			atlOffset=2.8610229e-006;
+		};
+		class Item25
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1494.7629,3.2664707,1053.9036};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_105";
+						isPlayable=1;
+					};
+					id=55;
+					type="B_medic_F";
+					atlOffset=3.0994415e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=54;
+			atlOffset=3.0994415e-006;
+		};
+		class Item26
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1493.6174,3.2587857,1054.0637};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_106";
+						isPlayable=1;
+					};
+					id=57;
+					type="B_medic_F";
+					atlOffset=3.0994415e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=56;
+			atlOffset=3.0994415e-006;
+		};
+		class Item27
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1491.9329,3.2536898,1053.9915};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_107";
+						isPlayable=1;
+					};
+					id=59;
+					type="B_medic_F";
+					atlOffset=3.0994415e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=58;
+			atlOffset=3.0994415e-006;
+		};
+		class Item28
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1490.4417,3.3012714,1054.0012};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_108";
+						isPlayable=1;
+					};
+					id=61;
+					type="B_medic_F";
+					atlOffset=0.071884632;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=60;
+			atlOffset=0.071884632;
+		};
+		class Item29
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1488.9465,3.3307514,1054.1575};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_109";
+						isPlayable=1;
+					};
+					id=63;
+					type="B_medic_F";
+					atlOffset=0.13237405;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=62;
+			atlOffset=0.13237405;
+		};
+		class Item30
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1487.6233,3.3429585,1054.2141};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_110";
+						isPlayable=1;
+					};
+					id=65;
+					type="B_medic_F";
+					atlOffset=0.18334389;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=64;
+			atlOffset=0.18334389;
+		};
+		class Item31
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1500.2209,3.1325603,1055.2805};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_111";
+						isPlayable=1;
+					};
+					id=67;
+					type="B_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=66;
+		};
+		class Item32
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1498.9329,3.1579807,1055.259};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_112";
+						isPlayable=1;
+					};
+					id=69;
+					type="B_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=68;
+		};
+		class Item33
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1497.6565,3.1723211,1055.302};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_113";
+						isPlayable=1;
+					};
+					id=71;
+					type="B_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=70;
+		};
+		class Item34
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1496.2668,3.1844139,1055.3508};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_114";
+						isPlayable=1;
+					};
+					id=73;
+					type="B_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=72;
+		};
+		class Item35
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1494.8489,3.1944895,1055.3743};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_115";
+						isPlayable=1;
+					};
+					id=75;
+					type="B_medic_F";
+					atlOffset=-2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=74;
+			atlOffset=-2.3841858e-007;
+		};
+		class Item36
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1493.7034,3.1881876,1055.5344};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_116";
+						isPlayable=1;
+					};
+					id=77;
+					type="B_medic_F";
+					atlOffset=3.0994415e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=76;
+			atlOffset=3.0994415e-006;
+		};
+		class Item37
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1492.0188,3.1852443,1055.4622};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_117";
+						isPlayable=1;
+					};
+					id=79;
+					type="B_medic_F";
+					atlOffset=3.0994415e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=78;
+			atlOffset=3.0994415e-006;
+		};
+		class Item38
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1490.5276,3.1640871,1055.4719};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_118";
+						isPlayable=1;
+					};
+					id=81;
+					type="B_medic_F";
+					atlOffset=3.0994415e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=80;
+			atlOffset=3.0994415e-006;
+		};
+		class Item39
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1489.0325,3.1794453,1055.6282};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_119";
+						isPlayable=1;
+					};
+					id=83;
+					type="B_medic_F";
+					atlOffset=0.046363592;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=82;
+			atlOffset=0.046363592;
+		};
+		class Item40
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1487.7092,3.195116,1055.6848};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_120";
+						isPlayable=1;
+					};
+					id=85;
+					type="B_medic_F";
+					atlOffset=0.099651098;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=84;
+			atlOffset=0.099651098;
+		};
+		class Item41
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1500.2424,3.0457842,1056.6301};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_121";
+						isPlayable=1;
+					};
+					id=87;
+					type="B_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=86;
+		};
+		class Item42
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1498.9543,3.0712044,1056.6086};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_122";
+						isPlayable=1;
+					};
+					id=89;
+					type="B_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=88;
+		};
+		class Item43
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1497.678,3.0922759,1056.6516};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_123";
+						isPlayable=1;
+					};
+					id=91;
+					type="B_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=90;
+		};
+		class Item44
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1496.2883,3.1086068,1056.7004};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_124";
+						isPlayable=1;
+					};
+					id=93;
+					type="B_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=92;
+		};
+		class Item45
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1494.8704,3.1187396,1056.7239};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_125";
+						isPlayable=1;
+					};
+					id=95;
+					type="B_medic_F";
+					atlOffset=-2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=94;
+			atlOffset=-2.3841858e-007;
+		};
+		class Item46
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1493.7249,3.1189311,1056.884};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_126";
+						isPlayable=1;
+					};
+					id=97;
+					type="B_medic_F";
+					atlOffset=-2.3841858e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=96;
+			atlOffset=-2.3841858e-007;
+		};
+		class Item47
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1492.0403,3.1207504,1056.8118};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_127";
+						isPlayable=1;
+					};
+					id=99;
+					type="B_medic_F";
+					atlOffset=3.0994415e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=98;
+			atlOffset=3.0994415e-006;
+		};
+		class Item48
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1490.5491,3.1003942,1056.8215};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_128";
+						isPlayable=1;
+					};
+					id=101;
+					type="B_medic_F";
+					atlOffset=3.0994415e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=100;
+			atlOffset=3.0994415e-006;
+		};
+		class Item49
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1489.054,3.0841694,1056.9778};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_129";
+						isPlayable=1;
+					};
+					id=103;
+					type="B_medic_F";
+					atlOffset=0.011925459;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=102;
+			atlOffset=0.011925459;
+		};
+		class Item50
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1487.7307,3.102541,1057.0344};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_130";
+						isPlayable=1;
+					};
+					id=105;
+					type="B_medic_F";
+					atlOffset=0.067626953;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=104;
+			atlOffset=0.067626953;
+		};
+		class Item51
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1639.9431,6.077322,686.6095};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_131";
+						isPlayable=1;
+					};
+					id=107;
+					type="O_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=106;
+		};
+		class Item52
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1638.5964,6.0656338,686.4552};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_132";
+						isPlayable=1;
+					};
+					id=109;
+					type="O_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=108;
+		};
+		class Item53
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1637.0066,6.0607996,686.47278};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_133";
+						isPlayable=1;
+					};
+					id=111;
+					type="O_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=110;
+		};
+		class Item54
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1635.9099,6.0541492,686.5802};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_134";
+						isPlayable=1;
+					};
+					id=113;
+					type="O_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=112;
+		};
+		class Item55
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1634.573,6.0453873,686.68372};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_135";
+						isPlayable=1;
+					};
+					id=115;
+					type="O_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=114;
+		};
+		class Item56
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1633.4421,6.0003181,686.74622};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_136";
+						isPlayable=1;
+					};
+					id=117;
+					type="O_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=116;
+		};
+		class Item57
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1631.9714,5.9419026,686.90051};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_137";
+						isPlayable=1;
+					};
+					id=119;
+					type="O_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=118;
+		};
+		class Item58
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1630.3132,5.9339685,687.13293};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_138";
+						isPlayable=1;
+					};
+					id=121;
+					type="O_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=120;
+		};
+		class Item59
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1628.782,5.751658,686.97278};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_139";
+						isPlayable=1;
+					};
+					id=123;
+					type="O_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=122;
+		};
+		class Item60
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1627.3728,5.610363,687.21887};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_140";
+						isPlayable=1;
+					};
+					id=125;
+					type="O_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=124;
+		};
+		class Item61
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1640.0046,6.0239735,687.88293};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_141";
+						isPlayable=1;
+					};
+					id=127;
+					type="O_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=126;
+		};
+		class Item62
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1638.658,6.0109725,687.72864};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_142";
+						isPlayable=1;
+					};
+					id=129;
+					type="O_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=128;
+		};
+		class Item63
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1637.0681,6.0168171,687.74622};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_143";
+						isPlayable=1;
+					};
+					id=131;
+					type="O_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=130;
+		};
+		class Item64
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1635.9714,6.0101676,687.85364};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_144";
+						isPlayable=1;
+					};
+					id=133;
+					type="O_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=132;
+		};
+		class Item65
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1634.6345,6.0030141,687.95715};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_145";
+						isPlayable=1;
+					};
+					id=135;
+					type="O_medic_F";
+					atlOffset=-4.7683716e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=134;
+			atlOffset=-4.7683716e-007;
+		};
+		class Item66
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1633.5037,5.9978318,688.01965};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_146";
+						isPlayable=1;
+					};
+					id=137;
+					type="O_medic_F";
+					atlOffset=-4.7683716e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=136;
+			atlOffset=-4.7683716e-007;
+		};
+		class Item67
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1632.033,5.9477558,688.17395};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_147";
+						isPlayable=1;
+					};
+					id=139;
+					type="O_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=138;
+		};
+		class Item68
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1630.3748,5.9497266,688.40637};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_148";
+						isPlayable=1;
+					};
+					id=141;
+					type="O_medic_F";
+					atlOffset=-4.7683716e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=140;
+			atlOffset=-4.7683716e-007;
+		};
+		class Item69
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1628.8435,5.9414253,688.24622};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_149";
+						isPlayable=1;
+					};
+					id=143;
+					type="O_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=142;
+		};
+		class Item70
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1627.4343,5.814754,688.49231};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_150";
+						isPlayable=1;
+					};
+					id=145;
+					type="O_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=144;
+		};
+		class Item71
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1640.0408,5.9744043,689.07825};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_151";
+						isPlayable=1;
+					};
+					id=147;
+					type="O_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=146;
+		};
+		class Item72
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1638.6941,5.9597788,688.92395};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_152";
+						isPlayable=1;
+					};
+					id=149;
+					type="O_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=148;
+		};
+		class Item73
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1637.1042,5.9675083,688.94153};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_153";
+						isPlayable=1;
+					};
+					id=151;
+					type="O_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=150;
+		};
+		class Item74
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1636.0076,5.9687748,689.04895};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_154";
+						isPlayable=1;
+					};
+					id=153;
+					type="O_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=152;
+		};
+		class Item75
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1634.6707,5.9616742,689.15247};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_155";
+						isPlayable=1;
+					};
+					id=155;
+					type="O_medic_F";
+					atlOffset=-4.7683716e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=154;
+			atlOffset=-4.7683716e-007;
+		};
+		class Item76
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1633.5398,5.95649,689.21497};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_156";
+						isPlayable=1;
+					};
+					id=157;
+					type="O_medic_F";
+					atlOffset=-4.7683716e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=156;
+			atlOffset=-4.7683716e-007;
+		};
+		class Item77
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1632.0691,5.9472198,689.36926};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_157";
+						isPlayable=1;
+					};
+					id=159;
+					type="O_medic_F";
+					atlOffset=-4.7683716e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=158;
+			atlOffset=-4.7683716e-007;
+		};
+		class Item78
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1630.4109,5.9515691,689.60168};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_158";
+						isPlayable=1;
+					};
+					id=161;
+					type="O_medic_F";
+					atlOffset=-4.7683716e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=160;
+			atlOffset=-4.7683716e-007;
+		};
+		class Item79
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1628.8796,6.008307,689.44153};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_159";
+						isPlayable=1;
+					};
+					id=163;
+					type="O_medic_F";
+					atlOffset=-4.7683716e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=162;
+			atlOffset=-4.7683716e-007;
+		};
+		class Item80
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1627.4705,5.9992261,689.68762};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_160";
+						isPlayable=1;
+					};
+					id=165;
+					type="O_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=164;
+		};
+		class Item81
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1640.1023,5.9310503,690.35168};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_161";
+						isPlayable=1;
+					};
+					id=167;
+					type="O_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=166;
+		};
+		class Item82
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1638.7556,5.9087934,690.19739};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_162";
+						isPlayable=1;
+					};
+					id=169;
+					type="O_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=168;
+		};
+		class Item83
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1637.1658,5.908886,690.21497};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_163";
+						isPlayable=1;
+					};
+					id=171;
+					type="O_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=170;
+		};
+		class Item84
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1636.0691,5.9075747,690.32239};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_164";
+						isPlayable=1;
+					};
+					id=173;
+					type="O_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=172;
+		};
+		class Item85
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1634.7322,5.9049487,690.4259};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_165";
+						isPlayable=1;
+					};
+					id=175;
+					type="O_medic_F";
+					atlOffset=4.7683716e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=174;
+			atlOffset=4.7683716e-007;
+		};
+		class Item86
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1633.6013,5.8973122,690.4884};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_166";
+						isPlayable=1;
+					};
+					id=177;
+					type="O_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=176;
+		};
+		class Item87
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1632.1306,5.8826904,690.6427};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_167";
+						isPlayable=1;
+					};
+					id=179;
+					type="O_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=178;
+		};
+		class Item88
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1630.4724,5.8849607,690.87512};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_168";
+						isPlayable=1;
+					};
+					id=181;
+					type="O_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=180;
+		};
+		class Item89
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1628.9412,5.9544306,690.71497};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_169";
+						isPlayable=1;
+					};
+					id=183;
+					type="O_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=182;
+		};
+		class Item90
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1627.532,5.9873524,690.96106};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_170";
+						isPlayable=1;
+					};
+					id=185;
+					type="O_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=184;
+		};
+		class Item91
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1640.2458,5.908174,691.72083};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_171";
+						isPlayable=1;
+					};
+					id=187;
+					type="O_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=186;
+		};
+		class Item92
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1638.8992,5.8859153,691.56653};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_172";
+						isPlayable=1;
+					};
+					id=189;
+					type="O_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=188;
+		};
+		class Item93
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1637.3093,5.8213372,691.58411};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_173";
+						isPlayable=1;
+					};
+					id=191;
+					type="O_medic_F";
+					atlOffset=4.7683716e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=190;
+			atlOffset=4.7683716e-007;
+		};
+		class Item94
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1636.2126,5.8155308,691.69153};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_174";
+						isPlayable=1;
+					};
+					id=193;
+					type="O_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=192;
+		};
+		class Item95
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1634.8757,5.8144364,691.79504};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_175";
+						isPlayable=1;
+					};
+					id=195;
+					type="O_medic_F";
+					atlOffset=4.7683716e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=194;
+			atlOffset=4.7683716e-007;
+		};
+		class Item96
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1633.7449,5.8042388,691.85754};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_176";
+						isPlayable=1;
+					};
+					id=197;
+					type="O_medic_F";
+					atlOffset=4.7683716e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=196;
+			atlOffset=4.7683716e-007;
+		};
+		class Item97
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1632.2742,5.7881474,692.01184};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_177";
+						isPlayable=1;
+					};
+					id=199;
+					type="O_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=198;
+		};
+		class Item98
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1630.616,5.7862077,692.24426};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_178";
+						isPlayable=1;
+					};
+					id=201;
+					type="O_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=200;
+		};
+		class Item99
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1629.0847,5.8395433,692.08411};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_179";
+						isPlayable=1;
+					};
+					id=203;
+					type="O_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=202;
+		};
+		class Item100
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1627.6755,5.8724613,692.3302};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						init="removeAllWeapons this;";
+						name="player_180";
+						isPlayable=1;
+					};
+					id=205;
+					type="O_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=204;
+		};
+		class Item101
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1395.6814,7.6842518,962.72278};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_1";
+						isPlayable=1;
+					};
+					id=207;
+					type="I_medic_F";
+					atlOffset=1.4985857;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=206;
+			atlOffset=1.4985857;
+		};
+		class Item102
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1397.0066,7.8164539,962.57825};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_2";
+						isPlayable=1;
+					};
+					id=209;
+					type="I_medic_F";
+					atlOffset=1.6272635;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=208;
+			atlOffset=1.6272635;
+		};
+		class Item103
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1398.6257,7.7792835,962.54309};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_3";
+						isPlayable=1;
+					};
+					id=211;
+					type="I_medic_F";
+					atlOffset=1.6577778;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=210;
+			atlOffset=1.6577778;
+		};
+		class Item104
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1403.0183,7.6653767,962.50793};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_6";
+						isPlayable=1;
+					};
+					id=213;
+					type="I_medic_F";
+					atlOffset=1.3184695;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=212;
+			atlOffset=1.3184695;
+		};
+		class Item105
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1404.4441,8.4838276,962.43762};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_7";
+						isPlayable=1;
+					};
+					id=215;
+					type="I_medic_F";
+					atlOffset=1.491745;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=214;
+			atlOffset=1.491745;
+		};
+		class Item106
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1400.0378,7.7418995,962.46497};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_4";
+						isPlayable=1;
+					};
+					id=217;
+					type="I_medic_F";
+					atlOffset=1.5377502;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=216;
+			atlOffset=1.5377502;
+		};
+		class Item107
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1401.5964,7.5045643,962.49231};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_5";
+						isPlayable=1;
+					};
+					id=219;
+					type="I_medic_F";
+					atlOffset=1.3693686;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=218;
+			atlOffset=1.3693686;
+		};
+		class Item108
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1405.9031,9.182497,962.41809};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_8";
+						isPlayable=1;
+					};
+					id=221;
+					type="I_medic_F";
+					atlOffset=1.6497726;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=220;
+			atlOffset=1.6497726;
+		};
+		class Item109
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1407.28,9.4917698,962.3595};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_9";
+						isPlayable=1;
+					};
+					id=223;
+					type="I_medic_F";
+					atlOffset=1.6941404;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=222;
+			atlOffset=1.6941404;
+		};
+		class Item110
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1408.6765,9.6632557,962.28918};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_10";
+						isPlayable=1;
+					};
+					id=225;
+					type="I_medic_F";
+					atlOffset=1.5963764;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=224;
+			atlOffset=1.5963764;
+		};
+		class Item111
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1395.8123,7.4775715,964.14075};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_11";
+						isPlayable=1;
+					};
+					id=227;
+					type="I_medic_F";
+					atlOffset=1.4538593;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=226;
+			atlOffset=1.4538593;
+		};
+		class Item112
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1397.1912,7.5645008,963.97864};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_12";
+						isPlayable=1;
+					};
+					id=229;
+					type="I_medic_F";
+					atlOffset=1.5933599;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=228;
+			atlOffset=1.5933599;
+		};
+		class Item113
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1398.7302,7.4309254,963.8302};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_13";
+						isPlayable=1;
+					};
+					id=231;
+					type="I_medic_F";
+					atlOffset=1.5203629;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=230;
+			atlOffset=1.5203629;
+		};
+		class Item114
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1403.1599,7.4313831,963.79114};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_16";
+						isPlayable=1;
+					};
+					id=233;
+					type="I_medic_F";
+					atlOffset=1.4354;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=232;
+			atlOffset=1.4354;
+		};
+		class Item115
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1404.5505,8.1344929,963.72473};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_17";
+						isPlayable=1;
+					};
+					id=235;
+					type="I_medic_F";
+					atlOffset=1.6046038;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=234;
+			atlOffset=1.6046038;
+		};
+		class Item116
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1400.2224,7.1934223,963.86926};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_14";
+						isPlayable=1;
+					};
+					id=237;
+					type="I_medic_F";
+					atlOffset=1.3485093;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=236;
+			atlOffset=1.3485093;
+		};
+		class Item117
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1401.7791,7.0490589,963.77942};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_15";
+						isPlayable=1;
+					};
+					id=239;
+					type="I_medic_F";
+					atlOffset=1.2614551;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=238;
+			atlOffset=1.2614551;
+		};
+		class Item118
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1406.0076,8.7260456,963.7052};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_18";
+						isPlayable=1;
+					};
+					id=241;
+					type="I_medic_F";
+					atlOffset=1.6562672;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=240;
+			atlOffset=1.6562672;
+		};
+		class Item119
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1407.3865,9.0162983,963.64661};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_19";
+						isPlayable=1;
+					};
+					id=243;
+					type="I_medic_F";
+					atlOffset=1.6161041;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=242;
+			atlOffset=1.6161041;
+		};
+		class Item120
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1408.781,9.2259235,963.57629};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_20";
+						isPlayable=1;
+					};
+					id=245;
+					type="I_medic_F";
+					atlOffset=1.5185781;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=244;
+			atlOffset=1.5185781;
+		};
+		class Item121
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1395.8503,7.3051624,965.50208};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_21";
+						isPlayable=1;
+					};
+					id=247;
+					type="I_medic_F";
+					atlOffset=1.3666763;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=246;
+			atlOffset=1.3666763;
+		};
+		class Item122
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1397.1531,7.2716999,965.37708};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_22";
+						isPlayable=1;
+					};
+					id=249;
+					type="I_medic_F";
+					atlOffset=1.3846021;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=248;
+			atlOffset=1.3846021;
+		};
+		class Item123
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1398.6921,7.1195393,965.22864};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_23";
+						isPlayable=1;
+					};
+					id=251;
+					type="I_medic_F";
+					atlOffset=1.2821388;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=250;
+			atlOffset=1.2821388;
+		};
+		class Item124
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1403.1218,7.3257923,965.18958};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_26";
+						isPlayable=1;
+					};
+					id=253;
+					type="I_medic_F";
+					atlOffset=1.3249283;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=252;
+			atlOffset=1.3249283;
+		};
+		class Item125
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1404.5105,7.9530811,965.12317};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_27";
+						isPlayable=1;
+					};
+					id=255;
+					type="I_medic_F";
+					atlOffset=1.4459257;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=254;
+			atlOffset=1.4459257;
+		};
+		class Item126
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1400.1824,6.8975849,965.2677};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_24";
+						isPlayable=1;
+					};
+					id=257;
+					type="I_medic_F";
+					atlOffset=1.1255479;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=256;
+			atlOffset=1.1255479;
+		};
+		class Item127
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1401.739,6.9057941,965.17786};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_25";
+						isPlayable=1;
+					};
+					id=259;
+					type="I_medic_F";
+					atlOffset=1.1526003;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=258;
+			atlOffset=1.1526003;
+		};
+		class Item128
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1405.9695,8.219408,965.10364};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_28";
+						isPlayable=1;
+					};
+					id=261;
+					type="I_medic_F";
+					atlOffset=1.3869553;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=260;
+			atlOffset=1.3869553;
+		};
+		class Item129
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1407.3464,8.4679432,965.04504};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_29";
+						isPlayable=1;
+					};
+					id=263;
+					type="I_medic_F";
+					atlOffset=1.3537874;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=262;
+			atlOffset=1.3537874;
+		};
+		class Item130
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1408.7429,8.7326832,964.97473};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_30";
+						isPlayable=1;
+					};
+					id=265;
+					type="I_medic_F";
+					atlOffset=1.3186579;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=264;
+			atlOffset=1.3186579;
+		};
+		class Item131
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1395.9666,7.0034046,966.82239};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_31";
+						isPlayable=1;
+					};
+					id=267;
+					type="I_medic_F";
+					atlOffset=1.1492548;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=266;
+			atlOffset=1.1492548;
+		};
+		class Item132
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1397.3455,6.958437,966.69739};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_32";
+						isPlayable=1;
+					};
+					id=269;
+					type="I_medic_F";
+					atlOffset=1.1490951;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=268;
+			atlOffset=1.1490951;
+		};
+		class Item133
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1398.8865,6.8034382,966.54504};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_33";
+						isPlayable=1;
+					};
+					id=271;
+					type="I_medic_F";
+					atlOffset=1.044229;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=270;
+			atlOffset=1.044229;
+		};
+		class Item134
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1403.3162,7.2430592,966.50989};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_36";
+						isPlayable=1;
+					};
+					id=273;
+					type="I_medic_F";
+					atlOffset=1.1500783;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=272;
+			atlOffset=1.1500783;
+		};
+		class Item135
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1404.7029,7.544466,966.44348};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_37";
+						isPlayable=1;
+					};
+					id=275;
+					type="I_medic_F";
+					atlOffset=1.1681437;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=274;
+			atlOffset=1.1681437;
+		};
+		class Item136
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1400.3748,6.7443714,966.58411};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_34";
+						isPlayable=1;
+					};
+					id=277;
+					type="I_medic_F";
+					atlOffset=1.0050578;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=276;
+			atlOffset=1.0050578;
+		};
+		class Item137
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1401.9333,6.8406391,966.49426};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_35";
+						isPlayable=1;
+					};
+					id=279;
+					type="I_medic_F";
+					atlOffset=1.0612006;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=278;
+			atlOffset=1.0612006;
+		};
+		class Item138
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1406.1638,7.7119465,966.42395};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_38";
+						isPlayable=1;
+					};
+					id=281;
+					type="I_medic_F";
+					atlOffset=1.0943227;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=280;
+			atlOffset=1.0943227;
+		};
+		class Item139
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1407.5388,8.0309162,966.36536};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_39";
+						isPlayable=1;
+					};
+					id=283;
+					type="I_medic_F";
+					atlOffset=1.1256404;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=282;
+			atlOffset=1.1256404;
+		};
+		class Item140
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1408.9373,8.2903156,966.29114};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_40";
+						isPlayable=1;
+					};
+					id=285;
+					type="I_medic_F";
+					atlOffset=1.1087632;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=284;
+			atlOffset=1.1087632;
+		};
+		class Item141
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1396.0076,6.7645435,968.17981};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_41";
+						isPlayable=1;
+					};
+					id=287;
+					type="I_medic_F";
+					atlOffset=0.98935652;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=286;
+			atlOffset=0.98935652;
+		};
+		class Item142
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1397.4226,6.7028522,968.0177};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_42";
+						isPlayable=1;
+					};
+					id=289;
+					type="I_medic_F";
+					atlOffset=0.97054815;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=288;
+			atlOffset=0.97054815;
+		};
+		class Item143
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1398.9636,6.6385059,967.86536};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_43";
+						isPlayable=1;
+					};
+					id=291;
+					type="I_medic_F";
+					atlOffset=0.9390316;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=290;
+			atlOffset=0.9390316;
+		};
+		class Item144
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1403.3933,6.8547077,967.8302};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_46";
+						isPlayable=1;
+					};
+					id=293;
+					type="I_medic_F";
+					atlOffset=0.91437817;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=292;
+			atlOffset=0.91437817;
+		};
+		class Item145
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1404.782,7.0874348,967.76379};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_47";
+						isPlayable=1;
+					};
+					id=295;
+					type="I_medic_F";
+					atlOffset=0.9173274;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=294;
+			atlOffset=0.9173274;
+		};
+		class Item146
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1400.4539,6.6391621,967.90442};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_44";
+						isPlayable=1;
+					};
+					id=297;
+					type="I_medic_F";
+					atlOffset=0.90213919;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=296;
+			atlOffset=0.90213919;
+		};
+		class Item147
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1402.0125,6.6944599,967.81458};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_45";
+						isPlayable=1;
+					};
+					id=299;
+					type="I_medic_F";
+					atlOffset=0.91083813;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=298;
+			atlOffset=0.91083813;
+		};
+		class Item148
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1406.241,7.300005,967.74426};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_48";
+						isPlayable=1;
+					};
+					id=301;
+					type="I_medic_F";
+					atlOffset=0.90278864;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=300;
+			atlOffset=0.90278864;
+		};
+		class Item149
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1407.6179,7.5898762,967.68567};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_49";
+						isPlayable=1;
+					};
+					id=303;
+					type="I_medic_F";
+					atlOffset=0.92935991;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=302;
+			atlOffset=0.92935991;
+		};
+		class Item150
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1409.0144,7.8303547,967.61145};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_50";
+						isPlayable=1;
+					};
+					id=305;
+					type="I_medic_F";
+					atlOffset=0.90027618;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=304;
+			atlOffset=0.90027618;
+		};
+		class Item151
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1396.1462,6.6399403,969.50012};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_51";
+						isPlayable=1;
+					};
+					id=307;
+					type="I_medic_F";
+					atlOffset=0.95091009;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=306;
+			atlOffset=0.95091009;
+		};
+		class Item152
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1397.5613,6.5785694,969.33801};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_52";
+						isPlayable=1;
+					};
+					id=309;
+					type="I_medic_F";
+					atlOffset=0.92922163;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=308;
+			atlOffset=0.92922163;
+		};
+		class Item153
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1399.1023,6.5261555,969.18567};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_53";
+						isPlayable=1;
+					};
+					id=311;
+					type="I_medic_F";
+					atlOffset=0.89691925;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=310;
+			atlOffset=0.89691925;
+		};
+		class Item154
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1403.532,6.8248615,969.15051};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_56";
+						isPlayable=1;
+					};
+					id=313;
+					type="I_medic_F";
+					atlOffset=0.93944597;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=312;
+			atlOffset=0.93944597;
+		};
+		class Item155
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1404.9207,7.1277637,969.08411};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_57";
+						isPlayable=1;
+					};
+					id=315;
+					type="I_medic_F";
+					atlOffset=1.0251236;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=314;
+			atlOffset=1.0251236;
+		};
+		class Item156
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1400.5925,6.5838337,969.22473};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_54";
+						isPlayable=1;
+					};
+					id=317;
+					type="I_medic_F";
+					atlOffset=0.91704941;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=316;
+			atlOffset=0.91704941;
+		};
+		class Item157
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1402.1511,6.645937,969.13489};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_55";
+						isPlayable=1;
+					};
+					id=319;
+					type="I_medic_F";
+					atlOffset=0.93585682;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=318;
+			atlOffset=0.93585682;
+		};
+		class Item158
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1406.3796,7.2766895,969.06458};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_58";
+						isPlayable=1;
+					};
+					id=321;
+					type="I_medic_F";
+					atlOffset=1.0128021;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=320;
+			atlOffset=1.0128021;
+		};
+		class Item159
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1407.7566,7.5311756,969.00598};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_59";
+						isPlayable=1;
+					};
+					id=323;
+					type="I_medic_F";
+					atlOffset=1.0032258;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=322;
+			atlOffset=1.0032258;
+		};
+		class Item160
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1409.115,7.6413441,968.93176};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_60";
+						isPlayable=1;
+					};
+					id=325;
+					type="I_medic_F";
+					atlOffset=0.86020088;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=324;
+			atlOffset=0.86020088;
+		};
+		class Item161
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1396.1843,6.5155506,970.89661};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_61";
+						isPlayable=1;
+					};
+					id=327;
+					type="I_medic_F";
+					atlOffset=0.90942621;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=326;
+			atlOffset=0.90942621;
+		};
+		class Item162
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1397.5994,6.4575062,970.7345};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_62";
+						isPlayable=1;
+					};
+					id=329;
+					type="I_medic_F";
+					atlOffset=0.88758278;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=328;
+			atlOffset=0.88758278;
+		};
+		class Item163
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1399.1404,6.4415455,970.58215};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_63";
+						isPlayable=1;
+					};
+					id=331;
+					type="I_medic_F";
+					atlOffset=0.88949823;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=330;
+			atlOffset=0.88949823;
+		};
+		class Item164
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1403.5701,6.8289509,970.547};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_66";
+						isPlayable=1;
+					};
+					id=333;
+					type="I_medic_F";
+					atlOffset=1.0387225;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=332;
+			atlOffset=1.0387225;
+		};
+		class Item165
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1404.9587,7.0682087,970.48059};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_67";
+						isPlayable=1;
+					};
+					id=335;
+					type="I_medic_F";
+					atlOffset=1.1292872;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=334;
+			atlOffset=1.1292872;
+		};
+		class Item166
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1400.6306,6.5123463,970.62122};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_64";
+						isPlayable=1;
+					};
+					id=337;
+					type="I_medic_F";
+					atlOffset=0.92595005;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=336;
+			atlOffset=0.92595005;
+		};
+		class Item167
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1402.1892,6.5730915,970.53137};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_65";
+						isPlayable=1;
+					};
+					id=339;
+					type="I_medic_F";
+					atlOffset=0.94401884;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=338;
+			atlOffset=0.94401884;
+		};
+		class Item168
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1406.4177,7.1903095,970.46106};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_68";
+						isPlayable=1;
+					};
+					id=341;
+					type="I_medic_F";
+					atlOffset=1.0868912;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=340;
+			atlOffset=1.0868912;
+		};
+		class Item169
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1407.7947,7.3347492,970.40247};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_69";
+						isPlayable=1;
+					};
+					id=343;
+					type="I_medic_F";
+					atlOffset=0.97935104;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=342;
+			atlOffset=0.97935104;
+		};
+		class Item170
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1409.1531,7.468111,970.32825};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_70";
+						isPlayable=1;
+					};
+					id=345;
+					type="I_medic_F";
+					atlOffset=0.87419987;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=344;
+			atlOffset=0.87419987;
+		};
+		class Item171
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1396.3015,6.3928242,972.25403};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_71";
+						isPlayable=1;
+					};
+					id=347;
+					type="I_medic_F";
+					atlOffset=0.87409639;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=346;
+			atlOffset=0.87409639;
+		};
+		class Item172
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1397.7166,6.3747425,972.09192};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_72";
+						isPlayable=1;
+					};
+					id=349;
+					type="I_medic_F";
+					atlOffset=0.89091825;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=348;
+			atlOffset=0.89091825;
+		};
+		class Item173
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1399.2576,6.4012318,971.93958};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_73";
+						isPlayable=1;
+					};
+					id=351;
+					type="I_medic_F";
+					atlOffset=0.9234271;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=350;
+			atlOffset=0.9234271;
+		};
+		class Item174
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1403.6873,6.8208332,971.90442};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_76";
+						isPlayable=1;
+					};
+					id=353;
+					type="I_medic_F";
+					atlOffset=1.1477652;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=352;
+			atlOffset=1.1477652;
+		};
+		class Item175
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1405.0759,6.9745045,971.83801};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_77";
+						isPlayable=1;
+					};
+					id=355;
+					type="I_medic_F";
+					atlOffset=1.1564746;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=354;
+			atlOffset=1.1564746;
+		};
+		class Item176
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1402.3064,6.6018085,971.88879};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_75";
+						isPlayable=1;
+					};
+					id=357;
+					type="I_medic_F";
+					atlOffset=1.051156;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=356;
+			atlOffset=1.051156;
+		};
+		class Item177
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1406.5349,7.0080585,971.81848};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_78";
+						isPlayable=1;
+					};
+					id=359;
+					type="I_medic_F";
+					atlOffset=1.0343776;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=358;
+			atlOffset=1.0343776;
+		};
+		class Item178
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1407.9119,7.1377735,971.75989};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_79";
+						isPlayable=1;
+					};
+					id=361;
+					type="I_medic_F";
+					atlOffset=0.92760801;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=360;
+			atlOffset=0.92760801;
+		};
+		class Item179
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1409.2703,7.3467274,971.68567};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_80";
+						isPlayable=1;
+					};
+					id=363;
+					type="I_medic_F";
+					atlOffset=0.90182209;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=362;
+			atlOffset=0.90182209;
+		};
+		class Item180
+		{
+			dataType="Marker";
+			position[]={3049.8135,9.7465725,11234.672};
+			name="spawn_2";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorRed";
+			fillName="SolidBorder";
+			a=350;
+			b=350;
+			drawBorder=1;
+			id=367;
+			atlOffset=9.5367432e-007;
+		};
+		class Item181
+		{
+			dataType="Marker";
+			position[]={2008.5372,5.9093695,10659.949};
+			name="spawn_3";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorRed";
+			fillName="SolidBorder";
+			a=250;
+			b=250;
+			drawBorder=1;
+			id=368;
+			atlOffset=4.7683716e-007;
+		};
+		class Item182
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1400.7473,6.2896748,971.8761};
+					};
+					side="Independent";
+					flags=2;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="removeAllWeapons this;";
+						name="player_74";
+						isPlayable=1;
+					};
+					id=484;
+					type="I_medic_F";
+					atlOffset=0.77256727;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=483;
+			atlOffset=0.77256727;
+		};
+	};
+};
