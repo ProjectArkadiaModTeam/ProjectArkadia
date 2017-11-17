@@ -5,7 +5,9 @@ Project Arkadia is a RP/Survival mod for Bohemia Interactives Arma 3.
 The mod is set in the world of the CW Tv-series "The 100" .
 
 ## Current Features
-* Player Persistence
+* Player Persistence (MySQL)
+* Simple HUD (fps, health and clan)
+* (Very) Simple Clan System
 
 ## Usage/Installation
 
