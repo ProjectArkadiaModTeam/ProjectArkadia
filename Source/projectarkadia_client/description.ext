@@ -1,0 +1,59 @@
+onLoadName = "Project Arkadia";
+onLoadMission = "By Project Arkadia Mod Team | www.ProjectArkadia.enjinn.com";
+author = "Project Arkadia Mod Team";
+respawn=3;
+respawnDelay=5;
+respawnDialog = 0;
+respawnButton = 0;
+respawnOnStart = 0;
+disableChannels[] = {0,2,6};
+joinUnassigned = 0;
+saving = 0;
+disabledAI = true;
+loadScreen = "splash.jpg";
+
+enableDebugConsole = 1;
+
+corpseLimit = 10;
+corpseRemovalMinTime = 30;
+corpseRemovalMaxTime = 120;
+wreckLimit = 5;
+wreckRemovalMinTime = 30;
+wreckRemovalMaxTime = 120;
+
+class Header
+{
+	gameType=Sandbox;
+	minPlayers=1;
+	maxPlayers=180;
+};
+
+#include "dialogs\_master.h"
+
+class RscTitles
+{
+    #include "dialogs\ARK_hud.hpp"
+    //#include "3rdparty\HGF_progressbar\RscTitles.hpp"
+};
+
+class CfgSounds
+{
+    sounds[] = {};
+    class error
+    {
+        name = "error";
+        sound[] = {"\3rdparty\sounds\error.ogg", 1.0, 1};
+        titles[] = {};
+    };
+};
+
+
+class CfgRespawnTemplates
+{
+    class ARK_Death
+    {
+        onPlayerKilled = ARK_fnc_playerKilled;
+    };
+};
+
+respawnTemplates[] = {"ARK_Death"};
