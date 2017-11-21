@@ -7,6 +7,8 @@
  *
  */
 
+//TODO This needs to use skillpoints instead of experience points
+
 private ["_skill", "_player", "_currentSkills", "_playerExperience", "_skillData", "_index", "_updatedSkillArray", "_requiredSkills", "_skillsOwned"];
 
 _player = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
@@ -54,3 +56,24 @@ if (_requiredSkills != _skillsOwned) exitWith {
 	//Funny enough we cant do this on the server.... spawn with BIS_fnc_MP maybe?
 	//hint "You don't have the required skills to learn this skill";
 };
+
+//Lets make sure that the player has enough experience points
+if (_playerExperience < (_skillData select 3)) exitWith {
+	//Funny enough we cant do this on the server.... spawn with BIS_fnc_MP maybe?
+	//hint "You don't have enough skillpoints to learn this skill";
+}
+
+// Now we can update the players skill array
+serverPlayerSkills set [_index, [
+	(getPlayerUID _player),
+	[
+		(_playerExperience - (_skillDetails select 4)),
+		(_playerSkills + [_skill])
+	]
+]];
+
+// Lastly we update the database
+[_player, "skills", [(_playerSkills + [_skill])], true] cal ARK_fnc_serverSyncPlayerData;
+
+//Funny enough we cant do this on the server.... spawn with BIS_fnc_MP maybe?
+//hint "You have succesfully learned 'skillName'!;
