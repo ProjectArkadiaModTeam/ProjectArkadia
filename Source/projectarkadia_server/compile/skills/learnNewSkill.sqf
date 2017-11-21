@@ -50,7 +50,7 @@ _skillsOwned = 0;
 	if (_x in _currentSkills) then {
 		_skillsOwned = _skillsOwned + 1;
 	};
-} foreach (_skillData select 4);
+} foreach (_skillData select 5);
 
 if (_requiredSkills != _skillsOwned) exitWith {
 	//Funny enough we cant do this on the server.... spawn with BIS_fnc_MP maybe?
@@ -58,7 +58,7 @@ if (_requiredSkills != _skillsOwned) exitWith {
 };
 
 //Lets make sure that the player has enough experience points
-if (_playerExperience < (_skillData select 3)) exitWith {
+if (_playerExperience < (_skillData select 4)) exitWith {
 	//Funny enough we cant do this on the server.... spawn with BIS_fnc_MP maybe?
 	//hint "You don't have enough skillpoints to learn this skill";
 }

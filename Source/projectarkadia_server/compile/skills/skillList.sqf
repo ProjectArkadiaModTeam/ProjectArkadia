@@ -206,6 +206,147 @@ _skills = _skills + [[
 	[]
 ]];
 
+//combat skill tree
+_skills = _skills + [[
+	"combat-entry",
+	"combat",
+	"Combat Essentials",
+	"No Clue",
+	1,
+	[],
+	[
+	]
+]];
+
+//Misc Branch
+_skills = _skills + [[
+	"meele-1,
+	"combat",
+	"Swordsman",
+	"Ehh?",
+	2,
+	[
+		"survival-entry"
+	],
+	[
+	]
+]];
+
+_skills = _skills + [[
+	"meele-2,
+	"combat",
+	"Speed Boost",
+	"You run 10% faster",
+	3,
+	[
+		"combat-entry",
+		"meele-1"
+	],
+	[
+		0.1
+	]
+]];
+
+_skills = _skills + [[
+	"meele-3,
+	"combat",
+	"Tree Climber",
+	"You HIT AND KILL!",
+	4,
+	[
+		"combat-entry",
+		"meele-1",
+		"meele-2"
+	],
+	[]
+]];
+
+
+//Healer Branch
+_skills = _skills + [[
+	"marksman-1,
+	"combat",
+	"Marksman",
+	"No clue whats so ever",
+	2,
+	[
+		"combat-entry"
+	],
+	[
+	]
+]];
+
+_skills = _skills + [[
+	"marksman-2,
+	"combat",
+	"Marksman II",
+	"Bleedings stop 30% quicker, You regain 2% health every 30 seconds",
+	3,
+	[
+		"combat-entry",
+		"marksman-1"
+	],
+	[
+	]
+]];
+
+_skills = _skills + [[
+	"marksman-3,
+	"combat",
+	"Marksman III",
+	"Bleedings stop 60% quicker, You regain 5% health every 30 seconds",
+	4,
+	[
+		"combat-entry",
+		"marksman-1",
+		"marksman-2"
+	],
+	[
+	]
+]];
+
+//Food Branch
+_skills = _skills + [[
+	"bomb-1,
+	"combat",
+	"Bomb Maker",
+	"Bombs?",
+	2,
+	[
+		"combat-entry"
+	],
+	[
+	]
+]];
+
+_skills = _skills + [[
+	"bomb-2,
+	"combat",
+	"Bomb Builder",
+	"Bob the builder?",
+	2,
+	[
+		"combat-entry",
+		"bomb-1"
+	],
+	[
+	]
+]];
+
+_skills = _skills + [[
+	"bomb-3,
+	"combat",
+	"Bomb Master!",
+	"MW Missile incoming...!",
+	2,
+	[
+		"survival-entry",
+		"bomb-1",
+		"bomb-2"
+	],
+	[]
+]];
+
 
 //Return the array of skills to whatever function calls this script
 _skills;

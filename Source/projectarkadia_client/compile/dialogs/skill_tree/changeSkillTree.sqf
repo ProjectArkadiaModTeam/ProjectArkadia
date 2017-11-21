@@ -34,5 +34,6 @@ switch (_data) do {
 
 for [{_i=0}, {_i<10}, {_i=_i+1}] do
 {
-	ctrlSetText [_i+307, (_allSkillTreeData select (_i+_offset))];
-}
+	ctrlSetText [_i+307, (_allSkillTreeData select (_i+_offset) select 2)];
+	buttonSetAction [_i+307, format["[%1] call ARK_fnc_selectSkill", (_allSkillTreeData select (_i+_offset) select 0)]];
+};

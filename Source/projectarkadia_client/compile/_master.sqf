@@ -36,3 +36,8 @@ ARK_fnc_playerWantToRespawn = compileFinal preprocessFileLineNumbers "compile\pl
 // Dialog: Spawn Menu
 ARK_fnc_chooseClan = compileFinal preprocessFileLineNumbers "compile\dialogs\spawn_menu\ARK_fnc_chooseClan.sqf";
 ARK_fnc_showSpawnMenu = compileFinal preprocessfilelinenumbers "compile\dialogs\spawn_menu\showSpawnMenu.sqf";
+
+// Dialog: Skill Tree
+ARK_fnc_changeSkillTree = compileFinal preprocessFileLineNumbers "compile\dialogs\skill_tree\changeSkillTree.sqf";
+ARK_fnc_selectSkill = compileFinal preprocessFileLineNumbers "compile\dialogs\skill_tree\selectSkill.sqf";
+ARK_fnc_showSkillTree = compileFinal preprocessFileLineNumbers "compile\dialogs\skill_tree\showSkillTree.sqf";
