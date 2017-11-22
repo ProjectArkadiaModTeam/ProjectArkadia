@@ -16,7 +16,7 @@ _skillData = [];
         if ((_x select 0) == _skill) exitWith {
             _skillData = _x;
         };
-    } /*else {
+    }; /*else {
         private ["_y"];
         _y = _x;
 

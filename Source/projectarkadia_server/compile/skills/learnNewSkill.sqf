@@ -27,7 +27,7 @@ _index = [getPlayerUID _player, serverPlayerSkills] call ARK_fnc_findIndex;
 
 if (_index != -1) then {
 	_playerExperience = serverPlayerSkills select _index select 1 select 0;
-	_currentSkills = serverPlayerSkills select _index _ select 1 selct 1;
+	_currentSkills = serverPlayerSkills select _index select 1 select 1;
 };
 
 //Get the skill data
@@ -61,7 +61,7 @@ if (_requiredSkills != _skillsOwned) exitWith {
 if (_playerExperience < (_skillData select 4)) exitWith {
 	//Funny enough we cant do this on the server.... spawn with BIS_fnc_MP maybe?
 	//hint "You don't have enough skillpoints to learn this skill";
-}
+};
 
 // Now we can update the players skill array
 serverPlayerSkills set [_index, [
@@ -73,7 +73,7 @@ serverPlayerSkills set [_index, [
 ]];
 
 // Lastly we update the database
-[_player, "skills", [(_playerSkills + [_skill])], true] cal ARK_fnc_serverSyncPlayerData;
+[_player, "skills", [(_playerSkills + [_skill])], true] call ARK_fnc_serverSyncPlayerData;
 
 //Funny enough we cant do this on the server.... spawn with BIS_fnc_MP maybe?
 //hint "You have succesfully learned 'skillName'!;

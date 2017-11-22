@@ -67,7 +67,7 @@ _skills = _skills + [[
 
 //Misc Branch
 _skills = _skills + [[
-	"agility-1,
+	"agility-1",
 	"survival",
 	"Health Boost",
 	"You have 10% more health",
@@ -81,7 +81,7 @@ _skills = _skills + [[
 ]];
 
 _skills = _skills + [[
-	"agility-2,
+	"agility-2",
 	"survival",
 	"Speed Boost",
 	"You run 10% faster",
@@ -96,7 +96,7 @@ _skills = _skills + [[
 ]];
 
 _skills = _skills + [[
-	"agility-3,
+	"agility-3",
 	"survival",
 	"Tree Climber",
 	"You can climb in trees",
@@ -112,7 +112,7 @@ _skills = _skills + [[
 
 //Healer Branch
 _skills = _skills + [[
-	"healer-1,
+	"healer-1",
 	"survival",
 	"Simple First Aid",
 	"Bleedings stop 20% quicker, You regain 1% health every 30 seconds",
@@ -128,7 +128,7 @@ _skills = _skills + [[
 ]];
 
 _skills = _skills + [[
-	"healer-2,
+	"healer-2",
 	"survival",
 	"Healer",
 	"Bleedings stop 30% quicker, You regain 2% health every 30 seconds",
@@ -145,7 +145,7 @@ _skills = _skills + [[
 ]];
 
 _skills = _skills + [[
-	"healer-3,
+	"healer-3",
 	"survival",
 	"Master Healer",
 	"Bleedings stop 60% quicker, You regain 5% health every 30 seconds",
@@ -164,7 +164,7 @@ _skills = _skills + [[
 
 //Food Branch
 _skills = _skills + [[
-	"food-1,
+	"food-1",
 	"survival",
 	"Slow Eater",
 	"Hunger increases 20% slower",
@@ -178,7 +178,7 @@ _skills = _skills + [[
 ]];
 
 _skills = _skills + [[
-	"food-2,
+	"food-2",
 	"survival",
 	"Hydrater",
 	"Thirst increases 20% slower",
@@ -193,7 +193,7 @@ _skills = _skills + [[
 ]];
 
 _skills = _skills + [[
-	"food-3,
+	"food-3",
 	"survival",
 	"Raw Food",
 	"You have a 80% lesser chance of getting sick by eating raw meat",
@@ -220,7 +220,7 @@ _skills = _skills + [[
 
 //Misc Branch
 _skills = _skills + [[
-	"meele-1,
+	"meele-1",
 	"combat",
 	"Swordsman",
 	"Ehh?",
@@ -233,7 +233,7 @@ _skills = _skills + [[
 ]];
 
 _skills = _skills + [[
-	"meele-2,
+	"meele-2",
 	"combat",
 	"Speed Boost",
 	"You run 10% faster",
@@ -248,7 +248,7 @@ _skills = _skills + [[
 ]];
 
 _skills = _skills + [[
-	"meele-3,
+	"meele-3",
 	"combat",
 	"Tree Climber",
 	"You HIT AND KILL!",
@@ -264,7 +264,7 @@ _skills = _skills + [[
 
 //Healer Branch
 _skills = _skills + [[
-	"marksman-1,
+	"marksman-1",
 	"combat",
 	"Marksman",
 	"No clue whats so ever",
@@ -277,7 +277,7 @@ _skills = _skills + [[
 ]];
 
 _skills = _skills + [[
-	"marksman-2,
+	"marksman-2",
 	"combat",
 	"Marksman II",
 	"Bleedings stop 30% quicker, You regain 2% health every 30 seconds",
@@ -291,7 +291,7 @@ _skills = _skills + [[
 ]];
 
 _skills = _skills + [[
-	"marksman-3,
+	"marksman-3",
 	"combat",
 	"Marksman III",
 	"Bleedings stop 60% quicker, You regain 5% health every 30 seconds",
@@ -307,7 +307,7 @@ _skills = _skills + [[
 
 //Food Branch
 _skills = _skills + [[
-	"bomb-1,
+	"bomb-1",
 	"combat",
 	"Bomb Maker",
 	"Bombs?",
@@ -320,7 +320,7 @@ _skills = _skills + [[
 ]];
 
 _skills = _skills + [[
-	"bomb-2,
+	"bomb-2",
 	"combat",
 	"Bomb Builder",
 	"Bob the builder?",
@@ -334,7 +334,7 @@ _skills = _skills + [[
 ]];
 
 _skills = _skills + [[
-	"bomb-3,
+	"bomb-3",
 	"combat",
 	"Bomb Master!",
 	"MW Missile incoming...!",

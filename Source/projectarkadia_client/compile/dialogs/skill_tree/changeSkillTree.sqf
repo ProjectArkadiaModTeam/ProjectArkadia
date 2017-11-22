@@ -7,10 +7,11 @@
  *
  */
 
-private["_data", "_allSkillTreeData", "_offset"];
+private["_data", "_allSkillTreeData", "_offset", "_currentControl"];
 disableSerialization;
 
 _data = _this select 0;
+_currentControl = 0;
 
 //ehh
 if (_data == "") exitWith {};
@@ -20,7 +21,7 @@ _allSkillTreeData = [];
 _offset = 0;
 
 {
-	_allSkillTreeData = _allSkillTreeData + (_x select 2);
+	_allSkillTreeData append [_x];
 	
 } foreach ([] call ARK_fnc_skillList);
 
@@ -32,8 +33,11 @@ switch (_data) do {
 	case "farming": { _offset = 40 };
 };
 
+diag_log _allSkillTreeData;
+
 for [{_i=0}, {_i<10}, {_i=_i+1}] do
 {
-	ctrlSetText [_i+307, (_allSkillTreeData select (_i+_offset) select 2)];
-	buttonSetAction [_i+307, format["[%1] call ARK_fnc_selectSkill", (_allSkillTreeData select (_i+_offset) select 0)]];
+	_currentControl = _i + 307;
+	ctrlSetText [_currentControl, ((_allSkillTreeData select (_i + _offset)) select 2)];
+	buttonSetAction [_currentControl, format["['%1'] call ARK_fnc_selectSkill", ((_allSkillTreeData select (_i + _offset)) select 0)]];
 };

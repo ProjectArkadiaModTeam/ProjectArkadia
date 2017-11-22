@@ -1,5 +1,5 @@
 /**
- *  selectSkillTree.sqf
+ *  selectSkill.sqf
  *
  *
  * @mod    	   Project Arkadia

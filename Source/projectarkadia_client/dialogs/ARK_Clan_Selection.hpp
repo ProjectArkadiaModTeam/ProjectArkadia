@@ -1,4 +1,4 @@
-#include "CustomControlClasses.h"
+//#include "CustomControlClasses.h"
 class Ark_Clan_Selection
 {
 	idd = 2100;

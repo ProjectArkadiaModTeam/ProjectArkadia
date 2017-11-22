@@ -8,9 +8,12 @@
  */
  
  private["_list"];
-0 cutText["","BLACK FADED"];
-0 cutFadeOut 9999999;
-createDialog "ARK_Skill_Tree";
+closeDialog 0;
+
+if (!alive player) exitWith {};
+
 disableSerialization;
+createDialog "ARK_Skill_Tree";
 waitUntil {sleep 0.1; !isNull (findDisplay 300)};
-(findDisplay 300) displayAddEventHandler ["KeyDown", "if ((_this select 1) == 1) then { true }"]; 
+
+["survival"] call ARK_fnc_changeSkillTree;

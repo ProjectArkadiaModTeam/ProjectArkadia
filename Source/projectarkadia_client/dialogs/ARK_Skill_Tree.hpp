@@ -1,4 +1,4 @@
-#include "CustomControlClasses.h"
+//#include "CustomControlClasses.h"
 class ARK_Skill_Tree
 {
 	idd = 300;
@@ -177,6 +177,7 @@ class ARK_Skill_Tree
 			colorText[] = {0.949,0.949,0.949,1};
 			font = "EtelkaMonospaceProBold";
 			sizeEx = (((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1);
+			lineSpacing = 1;
 			
 		};
 		class Available_Skill_Points
@@ -263,7 +264,7 @@ class ARK_Skill_Tree
 	};
 	class Controls
 	{
-		class Survivor
+		class Survivor : RscButton
 		{
 			type = 1;
 			idc = 317;
@@ -292,9 +293,10 @@ class ARK_Skill_Tree
 			soundEnter[] = {"\A3\ui_f\data\sound\RscButton\soundEnter",0.09,1.0};
 			soundEscape[] = {"\A3\ui_f\data\sound\RscButton\soundEscape",0.09,1.0};
 			soundPush[] = {"\A3\ui_f\data\sound\RscButton\soundPush",0.09,1.0};
+			onButtonClick = "['survival'] call ARK_fnc_changeSkillTree;";
 			
 		};
-		class Combat
+		class Combat : RscButton
 		{
 			type = 1;
 			idc = 318;
@@ -323,9 +325,10 @@ class ARK_Skill_Tree
 			soundEnter[] = {"\A3\ui_f\data\sound\RscButton\soundEnter",0.09,1.0};
 			soundEscape[] = {"\A3\ui_f\data\sound\RscButton\soundEscape",0.09,1.0};
 			soundPush[] = {"\A3\ui_f\data\sound\RscButton\soundPush",0.09,1.0};
+			onButtonClick = "['combat'] call ARK_fnc_changeSkillTree;";
 			
 		};
-		class Research
+		class Research : RscButton
 		{
 			type = 1;
 			idc = 319;
@@ -354,9 +357,9 @@ class ARK_Skill_Tree
 			soundEnter[] = {"\A3\ui_f\data\sound\RscButton\soundEnter",0.09,1.0};
 			soundEscape[] = {"\A3\ui_f\data\sound\RscButton\soundEscape",0.09,1.0};
 			soundPush[] = {"\A3\ui_f\data\sound\RscButton\soundPush",0.09,1.0};
-			
+			onButtonClick = "['research'] call ARK_fnc_changeSkillTree;";
 		};
-		class Crafting
+		class Crafting : RscButton
 		{
 			type = 1;
 			idc = 320;
@@ -385,6 +388,7 @@ class ARK_Skill_Tree
 			soundEnter[] = {"\A3\ui_f\data\sound\RscButton\soundEnter",0.09,1.0};
 			soundEscape[] = {"\A3\ui_f\data\sound\RscButton\soundEscape",0.09,1.0};
 			soundPush[] = {"\A3\ui_f\data\sound\RscButton\soundPush",0.09,1.0};
+			onButtonClick = "['crafting'] call ARK_fnc_changeSkillTree;";
 			
 		};
 		class Farming
@@ -416,40 +420,41 @@ class ARK_Skill_Tree
 			soundEnter[] = {"\A3\ui_f\data\sound\RscButton\soundEnter",0.09,1.0};
 			soundEscape[] = {"\A3\ui_f\data\sound\RscButton\soundEscape",0.09,1.0};
 			soundPush[] = {"\A3\ui_f\data\sound\RscButton\soundPush",0.09,1.0};
+			onButtonClick = "['farming'] call ARK_fnc_changeSkillTree;";
 			
 		};
-		class Technology
-		{
-			type = 1;
-			idc = -1;
-			x = safeZoneX + safeZoneW * 0.630625;
-			y = safeZoneY + safeZoneH * 0.20555556;
-			w = safeZoneW * 0.0875;
-			h = safeZoneH * 0.06111112;
-			style = 0+2;
-			text = "Technology";
-			borderSize = 0;
-			colorBackground[] = {0.502,0.502,0.502,1};
-			colorBackgroundActive[] = {0.502,0.502,0.502,1};
-			colorBackgroundDisabled[] = {0.2,0.2,0.2,1};
-			colorBorder[] = {0,0,0,0};
-			colorDisabled[] = {0.2,0.2,0.2,1};
-			colorFocused[] = {0.2,0.2,0.2,1};
-			colorShadow[] = {0,0,0,1};
-			colorText[] = {1,1,1,1};
-			font = "PuristaMedium";
-			offsetPressedX = 0.01;
-			offsetPressedY = 0.01;
-			offsetX = 0.01;
-			offsetY = 0.01;
-			sizeEx = (((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1);
-			soundClick[] = {"\A3\ui_f\data\sound\RscButton\soundClick",0.09,1.0};
-			soundEnter[] = {"\A3\ui_f\data\sound\RscButton\soundEnter",0.09,1.0};
-			soundEscape[] = {"\A3\ui_f\data\sound\RscButton\soundEscape",0.09,1.0};
-			soundPush[] = {"\A3\ui_f\data\sound\RscButton\soundPush",0.09,1.0};
-			
-		};
-		class Entry_Skill
+//		class Technology
+//		{
+//			type = 1;
+//			idc = -1;
+//			x = safeZoneX + safeZoneW * 0.630625;
+//			y = safeZoneY + safeZoneH * 0.20555556;
+//			w = safeZoneW * 0.0875;
+//			h = safeZoneH * 0.06111112;
+//			style = 0+2;
+//			text = "Technology";
+//			borderSize = 0;
+//			colorBackground[] = {0.502,0.502,0.502,1};
+//			colorBackgroundActive[] = {0.502,0.502,0.502,1};
+//			colorBackgroundDisabled[] = {0.2,0.2,0.2,1};
+//			colorBorder[] = {0,0,0,0};
+//			colorDisabled[] = {0.2,0.2,0.2,1};
+//			colorFocused[] = {0.2,0.2,0.2,1};
+//			colorShadow[] = {0,0,0,1};
+//			colorText[] = {1,1,1,1};
+//			font = "PuristaMedium";
+//			offsetPressedX = 0.01;
+//			offsetPressedY = 0.01;
+//			offsetX = 0.01;
+//			offsetY = 0.01;
+//			sizeEx = (((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1);
+//			soundClick[] = {"\A3\ui_f\data\sound\RscButton\soundClick",0.09,1.0};
+//			soundEnter[] = {"\A3\ui_f\data\sound\RscButton\soundEnter",0.09,1.0};
+//			soundEscape[] = {"\A3\ui_f\data\sound\RscButton\soundEscape",0.09,1.0};
+//			soundPush[] = {"\A3\ui_f\data\sound\RscButton\soundPush",0.09,1.0};
+//			
+//		};
+		class Entry_Skill : RscButton
 		{
 			type = 1;
 			idc = 307;
@@ -480,7 +485,7 @@ class ARK_Skill_Tree
 			soundPush[] = {"\A3\ui_f\data\sound\RscButton\soundPush",0.09,1.0};
 			
 		};
-		class Skill_1_1
+		class Skill_1_1 : RscButton
 		{
 			type = 1;
 			idc = 308;
@@ -511,7 +516,7 @@ class ARK_Skill_Tree
 			soundPush[] = {"\A3\ui_f\data\sound\RscButton\soundPush",0.09,1.0};
 			
 		};
-		class Skill_1_2
+		class Skill_1_2 : RscButton
 		{
 			type = 1;
 			idc = 309;
@@ -542,7 +547,7 @@ class ARK_Skill_Tree
 			soundPush[] = {"\A3\ui_f\data\sound\RscButton\soundPush",0.09,1.0};
 			
 		};
-		class Skill_1_3
+		class Skill_1_3 : RscButton
 		{
 			type = 1;
 			idc = 310;
@@ -573,7 +578,7 @@ class ARK_Skill_Tree
 			soundPush[] = {"\A3\ui_f\data\sound\RscButton\soundPush",0.09,1.0};
 			
 		};
-		class Skill_2_1
+		class Skill_2_1 : RscButton
 		{
 			type = 1;
 			idc = 311;
@@ -604,7 +609,7 @@ class ARK_Skill_Tree
 			soundPush[] = {"\A3\ui_f\data\sound\RscButton\soundPush",0.09,1.0};
 			
 		};
-		class Skill_2_1
+		class Skill_2_2 : RscButton
 		{
 			type = 1;
 			idc = 312;
@@ -635,7 +640,7 @@ class ARK_Skill_Tree
 			soundPush[] = {"\A3\ui_f\data\sound\RscButton\soundPush",0.09,1.0};
 			
 		};
-		class Skill_2_3
+		class Skill_2_3 : RscButton
 		{
 			type = 1;
 			idc = 313;
@@ -666,7 +671,7 @@ class ARK_Skill_Tree
 			soundPush[] = {"\A3\ui_f\data\sound\RscButton\soundPush",0.09,1.0};
 			
 		};
-		class Skill_3_1
+		class Skill_3_1 : RscButton
 		{
 			type = 1;
 			idc = 314;
@@ -697,7 +702,7 @@ class ARK_Skill_Tree
 			soundPush[] = {"\A3\ui_f\data\sound\RscButton\soundPush",0.09,1.0};
 			
 		};
-		class Skill_3_2
+		class Skill_3_2 : RscButton
 		{
 			type = 1;
 			idc = 315;
@@ -728,7 +733,7 @@ class ARK_Skill_Tree
 			soundPush[] = {"\A3\ui_f\data\sound\RscButton\soundPush",0.09,1.0};
 			
 		};
-		class Skill_3_3
+		class Skill_3_3 : RscButton
 		{
 			type = 1;
 			idc = 316;
@@ -759,7 +764,7 @@ class ARK_Skill_Tree
 			soundPush[] = {"\A3\ui_f\data\sound\RscButton\soundPush",0.09,1.0};
 			
 		};
-		class Learn_Skill
+		class Learn_Skill : RscButton
 		{
 			type = 1;
 			idc = 305;

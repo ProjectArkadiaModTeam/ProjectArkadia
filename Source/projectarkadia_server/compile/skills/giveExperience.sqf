@@ -20,7 +20,7 @@ if (isNull _player) exitWith {
 };
 
 // Gets the players index in the global skill array
-_index [getPlayerUID _player, serverPlayerSkills] call ARK_fnc_findIndex; 
+_index = [getPlayerUID _player, serverPlayerSkills] call ARK_fnc_findIndex; 
 
 //Check if index is valid
 if (_index == -1) exitWith {

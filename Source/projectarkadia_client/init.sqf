@@ -25,9 +25,9 @@ if (!isDedicated) then {
     waitUntil {sleep 0.25; !(isNil "serverIsReady")};
 	
 	[] spawn {
-        if (serverStatusLootBuildings == -1) then {
-            [] call ARK_fnc_playerJoined;
-        };
+//        if (serverStatusLootBuildings == -1) then {
+//            [] call ARK_fnc_playerJoined;
+//        };
 
         while {!serverIsReady} do {
             0 cutText [serverStatus,"BLACK FADED"];
