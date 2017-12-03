@@ -5,6 +5,8 @@
  * @mod    	   Project Arkadia
  * @author     Stefan (Stephano) Rasmussen
  *
+ * Note everything in this script is for placeholder purposes only
+ *
  */
  
  /*
@@ -235,8 +237,8 @@ _skills = _skills + [[
 _skills = _skills + [[
 	"meele-2",
 	"combat",
-	"Speed Boost",
-	"You run 10% faster",
+	"Experienced Killer",
+	"Kill Em All!",
 	3,
 	[
 		"combat-entry",
@@ -250,7 +252,7 @@ _skills = _skills + [[
 _skills = _skills + [[
 	"meele-3",
 	"combat",
-	"Tree Climber",
+	"Insta Killer",
 	"You HIT AND KILL!",
 	4,
 	[
