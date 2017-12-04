@@ -15,7 +15,8 @@ ARK_fnc_playerJoined = compileFinal preprocessfilelinenumbers "compile\core\play
 ARK_fnc_syncAnimation = compileFinal preprocessFileLineNumbers "compile\core\syncAnimation.sqf";
 ARK_fnc_keyHandler = compileFinal preprocessFileLineNumbers "compile\core\keyHandler.sqf";
 ARK_fnc_serverNotification = compileFinal preprocessFileLineNumbers "compile\core\serverNotification.sqf";
-ark_fnc_worldObjectType = compileFinal preprocessFileLineNumbers "compile\core\worldObjectType.sqf";
+ARK_fnc_worldObjectType = compileFinal preprocessFileLineNumbers "compile\core\worldObjectType.sqf";
+ARK_fnc_isInside = compileFinal preprocessFileLineNumbers "compile\core\isInsde.sqf";
 
 // Player
 ARK_fnc_getPlayerSpawn = compileFinal preprocessfilelinenumbers "compile\player\getPlayerSpawn.sqf";
@@ -46,3 +47,7 @@ ARK_fnc_showSkillTree = compileFinal preprocessFileLineNumbers "compile\dialogs\
 
 //Gathering
 ARK_fnc_chopWood = compileFinal preprocessFileLineNumbers "compile\gathering\chopWood.sqf";
+
+
+//Hazards
+ARK_fnc_showVeil = compileFinal preprocessFileLineNumbers "compile\hazards\showVeil.sqf";
